@@ -5,7 +5,7 @@ public class TestData {
 
         Data aniversarioFillipe = new Data();
 
-        aniversarioFillipe.dia = 04;
+        aniversarioFillipe.dia = 4;
         aniversarioFillipe.mes = 10;
         aniversarioFillipe.ano = 1992;
 
@@ -14,19 +14,21 @@ public class TestData {
 
         {
 
-            System.out.println("");
+            System.out.println();
             aniversarioFillipe.dataimpressao();
 
             Data anaflavia = new Data ();
             anaflavia.dia = 28;
             anaflavia.mes = 12;
             anaflavia.ano = 1989;
-            System.out.println("");
+            System.out.println();
             System.out.printf("%d/%d/%d",anaflavia.dia,anaflavia.mes, anaflavia.ano);
 
-            System.out.println("");
+            System.out.println();
 
             anaflavia.dataimpressao();
+            System.out.println();
+            aniversarioFillipe.dataimpressao();
 
 
 
